@@ -44,7 +44,8 @@ router.post('/', upload.array('files'), checkPassword, async (req, res) => {
 
             await service.upload(file, onProgress);
             if (cloud.toLowerCase() !== 'local') {
-                fs.unlink(file.path).catch(console.error);
+                await fs.unlink(file.path);
+                console.log(`Đã xóa file tạm: ${file.path}`); // Thêm log để xác nhận
             }
         }
         res.status(200).send(`Tải lên thành công.`);
