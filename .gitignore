@@ -1,0 +1,23 @@
+# Bỏ qua các file môi trường ảo của Python
+venv/
+/venv/
+*.pyc
+__pycache__/
+
+# Bỏ qua các file môi trường của Node.js
+node_modules/
+/node_modules/
+dist/
+.npm/
+/google-drive-credentials.json
+# Bỏ qua các file log và file cấu hình nhạy cảm
+.env
+.env.*
+!.env.example
+*.log
+logs/
+
+# Bỏ qua các file hệ điều hành
+.DS_Store
+Thumbs.db
+
