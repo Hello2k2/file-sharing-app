@@ -35,7 +35,7 @@
 
 1.  **Sao chép (Clone) Repository:**
     ```bash
-    git clone [https://github.com/your-username/your-repository-name.git](https://github.com/your-username/your-repository-name.git)
+    git clone https://github.com/Hello2k2/file-sharing-app.git
     cd your-repository-name
     ```
 
