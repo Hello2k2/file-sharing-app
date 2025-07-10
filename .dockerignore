@@ -1,0 +1,16 @@
+# Bỏ qua các thư viện đã cài đặt ở local, Docker sẽ tự cài lại bên trong container
+node_modules
+
+# Bỏ qua các file log
+npm-debug.log
+
+# Bỏ qua file cấu hình biến môi trường, chúng sẽ được cung cấp bởi Railway
+.env
+
+# Bỏ qua các thư mục của hệ thống quản lý phiên bản
+.git
+.gitignore
+
+# Bỏ qua các thư mục tạm của hệ điều hành
+.DS_Store
+Thumbs.db
