@@ -36,7 +36,7 @@
 1.  **Sao chép (Clone) Repository:**
     ```bash
     git clone https://github.com/Hello2k2/file-sharing-app.git
-    cd your-repository-name
+    cd file-sharing-app
     ```
 
 2.  **Cài đặt các gói phụ thuộc:**
